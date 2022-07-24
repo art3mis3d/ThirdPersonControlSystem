@@ -1,0 +1,20 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
+	
+	
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=013d36bb_002D5473_002D4dd2_002Daab2_002D2b26dd20d181/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetPrivateFieldsSimplePasses" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::97A4F389-F863-2918-C553-5498FA5F2468::.NETFramework,Version=v4.7.1::Move.GetPrivateFieldsSimplePasses&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8cbac897_002D3ba0_002D4635_002D926d_002D1148e24e3d97/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetPrivateFieldsSimplePasses #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::97A4F389-F863-2918-C553-5498FA5F2468::.NETFramework,Version=v4.7.1::Move.GetPrivateFieldsSimplePasses&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c077d3f2_002Dc8f4_002D400f_002D9ef6_002D57e7e59712cc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetPrivateFieldsSimplePasses #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::97A4F389-F863-2918-C553-5498FA5F2468::.NETFramework,Version=v4.7.1::Move.MoveWithEnumeratorPasses&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

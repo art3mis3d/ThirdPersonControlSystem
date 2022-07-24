@@ -1,0 +1,20 @@
+{
+    "name": "Alpha",
+    "rootNamespace": "Characters.Alpha",
+    "references": [
+        "GUID:81921cae0d0134940b3277b10538388f",
+        "GUID:a1d458e58c449e541a3bf4fa1480a14e",
+        "GUID:e59d703ddb2b4de9aa636f35ebe5936c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
