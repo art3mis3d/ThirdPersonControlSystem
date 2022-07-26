@@ -728,10 +728,6 @@
       <Project>{21457cc5-7911-a010-d216-cc054193f44f}</Project>
       <Name>BaseClasses</Name>
     </ProjectReference>
-    <ProjectReference Include="Input.csproj">
-      <Project>{e949d8aa-72c6-2f07-e87b-616b4ed9b448}</Project>
-      <Name>Input</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

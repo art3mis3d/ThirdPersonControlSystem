@@ -6,7 +6,7 @@ using ProjectX.StateMachine.ScriptableObjects;
 [CreateAssetMenu(fileName = "IsMovingCondition", menuName = "State Machines/Conditions/Alpha/Is Moving Condition")]
 public class IsAlphaMovingConditionSO : StateConditionSO<IsAlphaMovingCondition>
 {
-    public float threshold = .02f;
+    public float threshold = .01f;
 }
 
 public class IsAlphaMovingCondition : Condition

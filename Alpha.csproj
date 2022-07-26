@@ -11,7 +11,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>Characters.Alpha</RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{dc70992c-007b-c010-117a-695f4ba5bd88}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
@@ -726,6 +726,10 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Input.csproj">
+      <Project>{e949d8aa-72c6-2f07-e87b-616b4ed9b448}</Project>
+      <Name>Input</Name>
+    </ProjectReference>
     <ProjectReference Include="RuntimeAnchors.csproj">
       <Project>{ee818ae4-9a25-2bad-6009-e82a6c733424}</Project>
       <Name>RuntimeAnchors</Name>
@@ -733,10 +737,6 @@
     <ProjectReference Include="ProjectX.StateMachine.csproj">
       <Project>{c67c9030-1f82-1a77-6caa-aba57ecf2a15}</Project>
       <Name>ProjectX.StateMachine</Name>
-    </ProjectReference>
-    <ProjectReference Include="Input.csproj">
-      <Project>{e949d8aa-72c6-2f07-e87b-616b4ed9b448}</Project>
-      <Name>Input</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

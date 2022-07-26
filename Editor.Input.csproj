@@ -735,13 +735,13 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Editor.Vanity.csproj">
-      <Project>{fa5cd8d0-3c58-41cc-18ba-251c52ade011}</Project>
-      <Name>Editor.Vanity</Name>
-    </ProjectReference>
     <ProjectReference Include="Input.csproj">
       <Project>{e949d8aa-72c6-2f07-e87b-616b4ed9b448}</Project>
       <Name>Input</Name>
+    </ProjectReference>
+    <ProjectReference Include="Editor.Vanity.csproj">
+      <Project>{fa5cd8d0-3c58-41cc-18ba-251c52ade011}</Project>
+      <Name>Editor.Vanity</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

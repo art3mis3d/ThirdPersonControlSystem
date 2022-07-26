@@ -22,7 +22,7 @@ public class AlphaMovementAction : StateAction
 
     public override void OnUpdate()
     {
-        _characterController.Move(_protagonistScript.movementVector * Time.deltaTime);
+        _characterController.Move(_protagonistScript.movementInput * (Time.deltaTime * 8f));
         _protagonistScript.movementVector = _characterController.velocity;
     }
 }

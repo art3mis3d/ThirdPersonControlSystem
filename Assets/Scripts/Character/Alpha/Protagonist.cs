@@ -1,6 +1,8 @@
 using System;
 using RuntimeAnchors;
+using UnityEditor;
 using UnityEngine;
+using System.Linq;
 
 namespace Characters.Alpha1
 {
@@ -14,7 +16,7 @@ namespace Characters.Alpha1
 
         [SerializeField]
         private TransformAnchor _gameplayCameraTransform;
-
+        
         private Vector2 _inputVector;
         private float _previousSpeed;
 
@@ -57,7 +59,7 @@ namespace Characters.Alpha1
             targetSpeed = Mathf.Lerp(_previousSpeed, targetSpeed, Time.deltaTime * 4.0f);
             
             // Assignment of Values
-            movementInput = _inputVector;
+            movementInput = new Vector3(_inputVector.x, 0f, _inputVector.y);
 
             _previousSpeed = targetSpeed;
         }
@@ -67,7 +69,6 @@ namespace Characters.Alpha1
         private void OnMove(Vector2 movement)
         {
             _inputVector = movement;
-            Debug.Log($"moved with: {_inputVector}");
         }
     }
 }

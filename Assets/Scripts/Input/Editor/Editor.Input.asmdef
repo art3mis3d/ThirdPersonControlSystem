@@ -2,8 +2,8 @@
     "name": "Editor.Input",
     "rootNamespace": "",
     "references": [
-        "GUID:f39635f34f7ab58428b5f9d02f0a701d",
-        "GUID:e59d703ddb2b4de9aa636f35ebe5936c"
+        "GUID:e59d703ddb2b4de9aa636f35ebe5936c",
+        "GUID:f39635f34f7ab58428b5f9d02f0a701d"
     ],
     "includePlatforms": [
         "Editor"

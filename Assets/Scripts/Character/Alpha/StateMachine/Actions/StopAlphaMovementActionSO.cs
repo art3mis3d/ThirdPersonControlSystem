@@ -26,18 +26,18 @@ public class StopAlphaMovementAction : StateAction
     public override void OnUpdate()
     {
         if (_originSO.Moment == SpecificMoment.OnUpdate)
-            _protagonist.movementVector = Vector3.zero;
+            _protagonist.movementInput = Vector3.zero;
     }
 
     public override void OnStateEnter()
     {
         if (_originSO.Moment == SpecificMoment.OnStateEnter)
-            _protagonist.movementVector = Vector3.zero;
+            _protagonist.movementInput = Vector3.zero;
     }
 
     public override void OnStateExit()
     {
         if(_originSO.Moment == SpecificMoment.OnStateExit)
-            _protagonist.movementVector = Vector3.zero;
+            _protagonist.movementInput = Vector3.zero;
     }
 }
