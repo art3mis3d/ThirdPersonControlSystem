@@ -1,0 +1,30 @@
+using UnityEngine;
+using ProjectX.StateMachine;
+using ProjectX.StateMachine.ScriptableObjects;
+
+[CreateAssetMenu(fileName = "#RUNTIMENAME#", menuName = "State Machines/Conditions/#RUNTIMENAME_WITH_SPACES#")]
+public class #SCRIPTNAME# : StateConditionSO<#RUNTIMENAME#>
+{
+}
+
+public class #RUNTIMENAME# : Condition
+{
+	protected #SCRIPTNAME# OriginSO => (#SCRIPTNAME#)OriginSO;
+
+	public override void Awake(StateMachine stateMachine)
+	{
+	}
+
+	protected override bool Statement()
+	{
+		return true;
+	}
+
+	public override void OnStateEnter()
+	{
+	}
+
+	public override void OnStateExit()
+	{
+	}
+}

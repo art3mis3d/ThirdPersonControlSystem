@@ -1,0 +1,18 @@
+{
+    "name": "ProjectX.StateMachine.Editor",
+    "rootNamespace": "ProjectX",
+    "references": [
+        "GUID:a1d458e58c449e541a3bf4fa1480a14e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
