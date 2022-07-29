@@ -1,7 +1,7 @@
-﻿using Characters.Alpha1;
-using UnityEngine;
+﻿using Character.Alpha;
 using ProjectX.StateMachine;
 using ProjectX.StateMachine.ScriptableObjects;
+using UnityEngine;
 
 [CreateAssetMenu(fileName = "IsMovingCondition", menuName = "State Machines/Conditions/Alpha/Is Moving Condition")]
 public class IsAlphaMovingConditionSO : StateConditionSO<IsAlphaMovingCondition>

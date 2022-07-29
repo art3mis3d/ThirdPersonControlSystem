@@ -1,7 +1,7 @@
-﻿using Characters.Alpha1;
-using UnityEngine;
+﻿using Character.Alpha;
 using ProjectX.StateMachine;
 using ProjectX.StateMachine.ScriptableObjects;
+using UnityEngine;
 
 [CreateAssetMenu(fileName = "StopAlphaMovement", menuName = "State Machines/Actions/Alpha/Stop Alpha Movement")]
 public class StopAlphaMovementActionSO : StateActionSO<StopAlphaMovementAction>

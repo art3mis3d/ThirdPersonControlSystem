@@ -1,4 +1,4 @@
-﻿using Characters.Alpha1;
+﻿using Character.Alpha;
 using ProjectX.StateMachine;
 using ProjectX.StateMachine.ScriptableObjects;
 using UnityEngine;

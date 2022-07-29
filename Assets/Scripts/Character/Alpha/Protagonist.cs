@@ -2,7 +2,7 @@ using System;
 using RuntimeAnchors;
 using UnityEngine;
 
-namespace Characters.Alpha1
+namespace Character.Alpha
 {
     /// <summary>
     /// <para>This component consumes input from the InputReader and stores its values. The input is then read, and manipulated, by the StateMachine's Actions.</para>
@@ -20,9 +20,14 @@ namespace Characters.Alpha1
 
         //These fields are read and manipulated by StateMachine Actions;
         [NonSerialized]
-        public Vector3 movementInput;
+        public bool jumpInput;
         [NonSerialized]
-        public Vector3 movementVector;
+        public Vector3 movementInput; // Initial input coming from this Protagonist script
+        [NonSerialized]
+        public Vector3 movementVector; // Final movement vector, manipulated by StateMachine actions
+
+        [NonSerialized]
+        public ControllerColliderHit lastHit;
 
         public const float GRAVITY_MULTIPLIER = 5f;
         public const float MAX_FALL_SPEED = -50f;
@@ -35,6 +40,8 @@ namespace Characters.Alpha1
         private void OnEnable()
         {
             _inputReader.MoveEvent += OnMove;
+            _inputReader.JumpEvent += OnJumpInitiated;
+            _inputReader.JumpCanceledEvent += OnJumpCancelled;
             //...
         }
 
@@ -42,6 +49,8 @@ namespace Characters.Alpha1
         private void OnDisable()
         {
             _inputReader.MoveEvent -= OnMove;
+            _inputReader.JumpEvent -= OnJumpInitiated;
+            _inputReader.JumpCanceledEvent -= OnJumpCancelled;
             //...
         }
 
@@ -91,6 +100,16 @@ namespace Characters.Alpha1
         private void OnMove(Vector2 movement)
         {
             _inputVector = movement;
+        }
+        
+        private void OnJumpInitiated()
+        {
+            jumpInput = true;
+        }
+
+        private void OnJumpCancelled()
+        {
+            jumpInput = false;
         }
     }
 }
