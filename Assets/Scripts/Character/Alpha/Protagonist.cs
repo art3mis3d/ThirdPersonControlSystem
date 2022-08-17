@@ -84,7 +84,7 @@ namespace Character.Alpha
             
             // fixed bug to avoid getting Vector3.Zero vector, which results in player turning to x:0, z:0
             if (_inputVector.sqrMagnitude == 0)
-                adjustedMovement = transform.forward * (adjustedMovement.sqrMagnitude * .0001f);
+                adjustedMovement = transform.forward * (adjustedMovement.magnitude * .01f);
             
             // Accelerate/Decelerate
             targetSpeed = Mathf.Clamp01(_inputVector.magnitude);
